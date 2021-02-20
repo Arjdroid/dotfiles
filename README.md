@@ -5,7 +5,7 @@
 <img src=./Screenshot%20from%202021-02-20%2010-46-19.png  alt=Screenshot>
 </p>
 
-<p align="center"><i>A screenshot of the website's landing page in light mode when viewed on a 4:3 screen horizontally.</i></p>
+<p align="center"><i>A screenshot of this custom shell configuration running on the customised [alacritty](https://github.com/alacritty/alacritty) terminal emulator running on my Arch Linux installation</i></p>
 
 ## Overview
 ---
@@ -14,10 +14,12 @@
 
 #### It contains my dotfiles for the [alacritty](https://github.com/alacritty/alacritty) terminal emulator.
 
+> Disclaimer: This repo has been made to my _personal_ terminal customisation preferences, containing the configuration exactly how _I_ want it. Please do not request colour scheme changes and other issues of the sort as this isn't necessarily made for everyone.
 
 ## Installation
 --- 
 > Disclaimer: Currently the only tested operating systems are Debian and Arch Linux based distros, I have not yet added support for others.
+> Disclaimer2: The customisations that I have implemented here are pretty heavy on CPU / GPU utilisation, if you do not have a very fast computer, slowness in the terminal may be noticed.
 
 #### Installing the zsh shell with its customizations varies with each operating system, here are the instructions for them:
 
