@@ -5,7 +5,7 @@
 <img src=./Screenshot%20from%202021-02-20%2010-46-19.png  alt=Screenshot>
 </p>
 
-<p align="center"><i>A screenshot of this custom shell configuration running on the customised <a href="https://github.com/alacritty/alacritty>alacritty"</a> terminal emulator running on my Arch Linux installation</i></p>
+<p align="center"><i>A screenshot of this custom shell configuration running on the customised <a href="https://github.com/alacritty/alacritty">alacritty</a> terminal emulator running on my Arch Linux installation</i></p>
 
 ## Overview
 ---
