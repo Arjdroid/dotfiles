@@ -1,13 +1,44 @@
 # ZSH-Custom-Configurator
-A repository that contains my custom terminal configuration
+> ## A repository that contains my custom UNIX terminal configuration
 
-Installs zsh, a couple dependancies, some cool plugins and a great theme for zsh.
+<p align=center>
+<img src=./Screenshot%20from%202021-02-20%2010-46-19.png  alt=Screenshot>
+</p>
 
-Contains my dotfiles for alacritty terminal emulator as well as gnome-terminal.
+<p align="center"><i>A screenshot of the website's landing page in light mode when viewed on a 4:3 screen horizontally.</i></p>
+
+## Overview
+---
+
+#### It installs zsh, ohmyzsh, a couple dependancies (curl, wget and git), some cool plugins and a great theme for the zsh shell.
+
+#### It contains my dotfiles for the [alacritty](https://github.com/alacritty/alacritty) terminal emulator.
 
 
-If you're on a Debian based system like Ubuntu, Pop!_OS or Linux Mint, use the [DEB] versions of scripts when available.
+## Installation
+--- 
+> Disclaimer: Currently the only tested operating systems are Debian and Arch Linux based distros, I have not yet added support for others.
 
-If you're on an Arch Linux based system like Manjaro, use the [ARCH] versions of scripts when available.
+#### Installing the zsh shell with its customizations varies with each operating system, here are the instructions for them:
 
-If you're on a Fedora based system like Silverblue or Redhat or CentOS, use the [RPM] versions of scripts when available.
+> Linux Operating Systems :
+
+If you're on a _Debian_ based system like _Ubuntu_, _Pop!\_OS_ or _Linux Mint_, use the **[DEB]** versions of scripts when available.
+
+If you're on an _Arch_ based system like _Manjaro_ or _Garuda_, use the **[PAC]** versions of scripts when available.
+
+If you're on a _Fedora_ based system like _Silverblue_, _RHEL_ or _~~CentOS~~Rocky_, use the **[RPM]** versions of scripts when available.
+
+> BSD Based Operating Systems:
+
+If you're on a _BSD_ based system like _FreeBSD_ or _OpenBSD_, use the **[BSD]** versions of scripts when available.
+
+> MacOS Operating Systems
+
+If you're on a _MacOS_ operating system like _Catalina_ or _Big Sur_, you **_must_** have the [brew](https://brew.sh) package manager installed on your system before using the **[MAC]** versions of scripts when available
+
+#### Installing alacritty
+
+Installing the [alacritty](https://github.com/alacritty/alacritty) GPU accelerated terminal emulator is pretty simple and easy to do, just install it for whatever operating system you're using
+
+Then, you must put the .alacritty.yml file in your home directory in order for it to be recognized and used by [alacritty](https://github.com/alacritty/alacritty) terminal emulator.
