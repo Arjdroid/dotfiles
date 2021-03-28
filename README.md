@@ -14,7 +14,7 @@
 
 #### It contains my dotfiles for the [alacritty](https://github.com/alacritty/alacritty) terminal emulator.
 
-> Disclaimer: This repo has been made to my _personal_ terminal customisation preferences, containing the configuration exactly how _I_ want it. Please do not request colour scheme changes and other issues of the sort as this isn't necessarily made for everyone.
+> Disclaimer: This repo has been made to my _personal_ terminal customisation preferences, containing the configuration exactly how _I_ want it. Please do not request colour scheme changes and other issues of the sort as this if for me, and how I want it. However, if there is a critical bug or vulnerability somewhere, please do make an issue on this repository.
 
 ## Installation
 --- 
