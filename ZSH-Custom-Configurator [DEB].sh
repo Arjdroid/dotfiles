@@ -1,6 +1,8 @@
 # Updating repositories and installing necessary dependancies
+echo "Updating your system\'s software repositories"
 sudo apt update -y
 
+echo "Installing the necessary dependencies; curl, wget, git and zsh"
 sudo apt install zsh curl wget git
 
 # Initiating the ohmyzsh installer
