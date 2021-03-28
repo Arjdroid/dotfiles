@@ -2,7 +2,7 @@
 <h2 align=center> A repository that contains my custom UNIX terminal configuration </h2>
 
 <p align=center>
-<img src=./Screenshot%20from%202021-02-20%2010-46-19.png  alt=Screenshot>
+<img src=https://github.com/Arjdroid/PictureHolder/blob/main/Arch-Linux-Screenshot%20from%202021-02-20%2010-46-19.png  alt=Screenshot>
 </p>
 
 <p align="center"><i>A screenshot of this custom shell configuration running on the customised <a href="https://github.com/alacritty/alacritty">alacritty</a> terminal emulator running on my Arch Linux installation</i></p>
