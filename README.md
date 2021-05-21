@@ -27,7 +27,7 @@
 
 If you're on a _Debian_ based system like _Ubuntu_, _Pop!\_OS_ or _Linux Mint_, use the **[DEB]** versions of scripts when available.
 
-If you're on an _Arch_ based system like _Manjaro_ or _Garuda_, use the **[PAC]** versions of scripts when available.
+If you're on an _Arch_ based system like _Manjaro_ or _Garuda_, use the **[ARCH]** versions of scripts when available.
 
 If you're on a _Fedora_ based system like _Silverblue_, _RHEL_ or _~~CentOS~~Rocky_, use the **[RPM]** versions of scripts when available.
 
