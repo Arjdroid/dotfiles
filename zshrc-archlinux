@@ -1,0 +1,29 @@
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/bob/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+bindkey -e
+# End of lines configured by zsh-newuser-install
+
+# Adding Custom ZSH Theme without using bloat (but good) oh-my-zsh
+autoload -U colors && colors
+
+# Left Aligned / Left Side Of The Prompt
+PROMPT="
+%B%F{white}%n%f%b@%m %B%~%b
+%B>%F{green} $%f%b "
+
+# Right Aligned / Right Side Of The Prompt
+RPROMPT="[%*]"
+
+# Extensions (Installed via package manager)
+
+# ZSH Syntax Highlighting (Should Come Last)
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh (UBUNTU)
