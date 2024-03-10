@@ -42,3 +42,15 @@ Installing the [alacritty](https://github.com/alacritty/alacritty) GPU accelerat
 Then, you must put the .alacritty.yml file in your home directory in order for it to be recognized and used by [alacritty](https://github.com/alacritty/alacritty) terminal emulator.
 
 #### macOS Default Terminal Theme - I have included a copy of the .terminal file to add the 'Tomorrow Night' theme to the macOS default terminal.
+
+
+# TODO:
+
+- Modernise configurations; deprecate Alacritty or re-haul it
+- Switch to `bureau` ohmyzsh theme,
+- implement `sed` / `awk`,
+- Change repository name to dotfiles
+- Include configurations for macOS terminal
+- Include configurations for Windows Terminal and GNOME Terminal on Fedora
+- Zed Editor configuration
+- VSCode Configuration
