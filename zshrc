@@ -1,11 +1,11 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your Oh My Zsh installation.
+# Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
-# load a random theme each time Oh My Zsh is loaded, in which case,
+# load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="bureau"
@@ -65,14 +65,12 @@ ZSH_THEME="bureau"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git direnv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,22 +85,64 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='nvim'
+  export EDITOR='mvim'
 fi
-
+# export EDITOR='nvim'
 # Compilation flags
-# export ARCHFLAGS="-arch $(uname -m)"
+# export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by Oh My Zsh libs,
-# plugins, and themes. Aliases can be placed here, though Oh My Zsh
-# users are encouraged to define aliases within a top-level file in
-# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
-# - $ZSH_CUSTOM/aliases.zsh
-# - $ZSH_CUSTOM/macos.zsh
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
+# alias gcc="gcc-12"
+# alias "g++"="g++-12"
+
+# Sourcing plugins that I have installed via Brew
+
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#757575'
+
+#export CHROME_EXECUTABLE="/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
+#export CHROME_EXECUTABLE="/Applications/Arc.app/Contents/MacOS/Arc"
+export CHROME_EXECUTABLE="/Applications/Chromium.app/Contents/MacOS/Chromium"
+
+export PATH="/opt/homebrew/sbin:$PATH"
+export PATH="/Users/arjdroid/.config/emacs/bin:$PATH"
+#export PATH="$PATH:/Users/arjdroid/development/flutter/bin"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export PATH="/opt/homebrew/opt/gnupg@2.2/bin:$PATH"
+#export PATH="$PATH:~/.config/emacs/bin"
+
+# Created by `pipx` on 2024-06-19 06:55:22
+export PATH="$PATH:/Users/arjdroid/.local/bin"
+
+# GPG_TTY stuff
+export GPG_TTY=$(tty)
+export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/Users/arjdroid/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<
+
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Stuff related to ruby & gems, installed via homebrew, all for cocoapods for flutter
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
